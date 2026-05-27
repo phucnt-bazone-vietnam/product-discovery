@@ -1,0 +1,95 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema#",
+  "$id": "ba-zone-ask-why/question-library.json",
+  "version": "1.0.0",
+  "author": "Phúc NT — Founder, BA Zone",
+  "website": "https://bazone.org",
+  "description": "Starter library of contextual elicitation questions keyed by domain, curated for BA Zone Digital School. Adapt wording to context — these are seeds, not scripts. Advanced question sequencing and follow-up logic taught in Digital School BA Advanced program.",
+
+  "feature_request": [
+    "What business problem are we solving — and who feels the pain most?",
+    "Which KPI is impacted if we don't build this?",
+    "What does success look like 3 months after launch?",
+    "Why is this solution preferred over alternatives?"
+  ],
+
+  "edtech_platform": [
+    "Which part of the learner journey has the highest drop-off?",
+    "What is the current course completion rate, and what's the target?",
+    "Who are the learners — self-paced, cohort-based, or enterprise-assigned?",
+    "What does the learner do when they get stuck — and what should they do?",
+    "How do instructors/mentors currently know a learner is struggling?",
+    "Is the problem content quality, engagement, scheduling, or pricing?"
+  ],
+
+  "digital_school_enrollment": [
+    "What's the current conversion rate from visit to enrollment?",
+    "Where in the funnel do most drop-offs happen?",
+    "What objections do prospective learners raise before buying?",
+    "Is the friction on the payment side, the course discovery side, or trust?"
+  ],
+
+  "mentor_matching": [
+    "How are mentors currently matched to learners?",
+    "What makes a good mentor-learner match — domain, availability, or style?",
+    "What's the current wait time from request to first session?",
+    "What happens when a learner is unhappy with their matched mentor?"
+  ],
+
+  "loyalty_system": [
+    "What business KPI should improve — retention, ARPU, or referral rate?",
+    "Who are the target users — new, active, or at-risk learners?",
+    "Have you analysed why learners churn — is it price, content, or engagement?",
+    "Would a loyalty program solve the root cause, or just delay churn?"
+  ],
+
+  "reporting": [
+    "Who uses the report, and how frequently?",
+    "What decision depends on this report?",
+    "What is difficult with the current reporting process?",
+    "Would a live dashboard serve the user better than a static export?"
+  ],
+
+  "payment": [
+    "What happens if payment fails mid-checkout?",
+    "How are duplicate transactions prevented?",
+    "Who owns the refund flow — Finance, CS, or automated?",
+    "What payment methods are in scope (card, wallet, bank transfer, instalment)?"
+  ],
+
+  "approval_process": [
+    "Who approves — single approver or multi-level?",
+    "What conditions trigger approval routing?",
+    "Can approval be delegated when the approver is on leave?",
+    "What's the SLA for approval decisions?"
+  ],
+
+  "notification_system": [
+    "What events trigger notifications?",
+    "Which channels are required — push, SMS, email, in-app?",
+    "What happens if delivery fails — retry, fallback channel, or drop?",
+    "Are there rate limits or quiet-hours per user?"
+  ],
+
+  "data_export": [
+    "Who needs the export, and how often?",
+    "What fields are mandatory vs optional?",
+    "Is the export sensitive — PII, financial, or grade data?",
+    "Would a dashboard or API serve the user better than a file download?"
+  ],
+
+  "integration": [
+    "Which external system is the integration target?",
+    "Is it real-time (sync API), near-real-time (webhook), or batch?",
+    "What's the fallback when the external system is down?",
+    "Who owns the integration contract — BA Zone or the partner?"
+  ],
+
+  "ai_feature": [
+    "What specific learner or operator problem will AI solve?",
+    "What does 'good AI output' look like — and who judges it?",
+    "What happens when the AI is wrong — who catches it and how?",
+    "Is AI the only solution, or could better search/filtering achieve the same outcome?",
+    "What data does the AI need, and is it available and clean?"
+  ]
+}

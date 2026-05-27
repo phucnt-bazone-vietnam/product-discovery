@@ -1,0 +1,92 @@
+{
+  "$schema": "https://json-schema.org/draft-07/schema#",
+  "$id": "ba-zone-ask-why/output-schema.json",
+  "title": "BA Zone — Discovery Findings",
+  "description": "Structured output of the Ask-Why elicitation workflow by Phúc NT / BA Zone. Every field is required so that downstream BRD/PRD/SRS writers have a complete contract.",
+  "author": "Phúc NT — Founder, BA Zone",
+  "website": "https://bazone.org",
+  "type": "object",
+  "version": "1.0.0",
+
+  "properties": {
+    "business_problem": {
+      "type": "string",
+      "description": "One-paragraph statement of the underlying business problem (NOT the proposed solution)."
+    },
+    "business_goal": {
+      "type": "string",
+      "description": "Measurable goal that solving the problem will achieve. Include KPI + target + deadline where possible."
+    },
+    "stakeholders": {
+      "type": "array",
+      "description": "Who is affected, who decides, who pays, who operates. Include role + organisation, not just names.",
+      "items": { "type": "string" }
+    },
+    "pain_points": {
+      "type": "array",
+      "description": "Observable symptoms reported by stakeholders today.",
+      "items": { "type": "string" }
+    },
+    "root_causes": {
+      "type": "array",
+      "description": "Why the pain exists. Must be one level deeper than pain_points (apply 5-Whys).",
+      "items": { "type": "string" }
+    },
+    "functional_requirements": {
+      "type": "array",
+      "description": "What the system must DO. Each item must be actionable for a designer or developer.",
+      "items": { "type": "string" }
+    },
+    "non_functional_requirements": {
+      "type": "array",
+      "description": "How well the system must do it — performance, availability, security, scalability, compliance.",
+      "items": { "type": "string" }
+    },
+    "business_rules": {
+      "type": "array",
+      "description": "Domain rules, thresholds, eligibility, validation logic. Each rule must be testable.",
+      "items": { "type": "string" }
+    },
+    "constraints": {
+      "type": "array",
+      "description": "Hard limits: regulatory, budget, timeline, technology stack, vendor lock-in.",
+      "items": { "type": "string" }
+    },
+    "risks": {
+      "type": "array",
+      "description": "What could go wrong. Include likelihood/impact hint where possible.",
+      "items": { "type": "string" }
+    },
+    "assumptions": {
+      "type": "array",
+      "description": "Things taken as true without explicit confirmation. Critical to surface for validation.",
+      "items": { "type": "string" }
+    },
+    "dependencies": {
+      "type": "array",
+      "description": "External systems, teams, regulations, or upstream decisions this work depends on.",
+      "items": { "type": "string" }
+    },
+    "open_questions": {
+      "type": "array",
+      "description": "What is still unknown and who needs to answer it. Never leave empty unless discovery is truly complete.",
+      "items": { "type": "string" }
+    }
+  },
+
+  "required": [
+    "business_problem",
+    "business_goal",
+    "stakeholders",
+    "pain_points",
+    "root_causes",
+    "functional_requirements",
+    "non_functional_requirements",
+    "business_rules",
+    "constraints",
+    "risks",
+    "assumptions",
+    "dependencies",
+    "open_questions"
+  ]
+}
