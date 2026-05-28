@@ -133,33 +133,30 @@ MIT — see [LICENSE](LICENSE). Attribution required on redistribution.
 <a name="phiên-bản-tiếng-việt"></a>
 ## 🇻🇳 Phiên bản Tiếng Việt
 
-> Một skill Claude AI biến những yêu cầu mơ hồ thành yêu cầu nghiệp vụ có cấu trúc —
+> Bộ skill Claude AI hỗ trợ làm rõ những yêu cầu mơ hồ thành yêu cầu nghiệp vụ có cấu trúc —
 > bằng cách đặt đúng câu hỏi trước khi viết bất kỳ dòng spec nào.
 >
 > Phát triển bởi **Phúc NT** · Founder, BA Zone · [bazone.org](https://bazone.org)
-> *Dành cho cộng đồng BA/PO tại Digital School — Việt Nam và Đông Nam Á*
+> *Dành cho cộng đồng BA/PO, đây là sản phẩm cá nhân cho cộng đồng BA Zone không liên quan đến cá nhân hoặc tổ chức nào khác, các ví dụ không liên quan đến sản phẩm thực tế nào trên thị trường để đảm bảo tuân thủ bảo mật và bản quyền*
 
 ---
 
-### Vấn đề skill này giải quyết
+### Bộ Skill này giúp gì cho BA, PO, PM
 
-Hầu hết sai lầm của BA xảy ra **trước khi** bất kỳ tài liệu nào được viết:
+Một sai lầm thường gặp của BA, PO khi phân tích nghiệp vụ đó là:
+- Chấp nhận "chúng tôi cần tính năng AI" như một yêu cầu thực sự và đi vào phân tích luôn mà không đặt câu hỏi tại sao.
+- Nhảy thẳng vào Yêu cầu Chức năng mà không xác nhận Yêu cầu Nghiệp vụ khi chưa hiểu được tần yêu cầu kinh doanh (Business Requirement) hay Yêu cầu bên liên quan (Stakeholder requirement)
+- Đặt các câu hỏi chung chung, không khai thác được khoảng các yêu cầu hoặc rủi ro tiềm ẩn của dự án.
+- Tạo ra spec đúng cho một vấn đề sai, tức là giải pháp không đáp ứng được yêu cầu người dùng.
 
-- Chấp nhận "chúng tôi cần tính năng AI" như một yêu cầu thực sự
-- Nhảy thẳng vào Yêu cầu Chức năng mà không xác nhận Yêu cầu Nghiệp vụ
-- Đặt các câu hỏi chung chung theo sách giáo khoa, không khai thác được khoảng trống thực sự
-- Tạo ra spec cho sai vấn đề
+**Ask Why - Product discovery** đề cao kỷ luật elicitation theo hướng khám phá trước theo framework của Babok v3 chuẩn quốc tế IIBA.Skill không cho phép bạn bỏ qua bước này để đi thẳng vào giải pháp khi chưa làm rõ yêu cầu.
 
-**Ask Why** đề cao kỷ luật elicitation theo hướng khám phá trước. Nó không cho phép bạn bỏ qua bước này để đi thẳng vào solutioning.
+> *"Sai lầm tốn kém nhất trong công việc BA, PO là xây dựng đúng giải pháp cho một vấn đề sai."* — Phúc NT, Founder BA Zone
 
-> *"Sai lầm tốn kém nhất trong công việc BA là xây dựng đúng giải pháp cho sai vấn đề."* — Phúc NT, BA Zone
-
----
-
-### Skill này làm gì
+### Skill này giúp BA, PO làm gì
 
 1. **Phát hiện ý định** — phân loại mọi yêu cầu thành 10 loại, gắn cờ Solution Bias ngay lập tức
-2. **Ánh xạ các lớp yêu cầu** — hiển thị 5 lớp BABOK nào đã đầy, còn thiếu, hoặc trống
+2. **Ánh xạ các lớp yêu cầu** — hiển thị 5 lớp BABOK nào đã đủ, còn thiếu, hoặc trống
 3. **Phát hiện khoảng trống** — tạo bảng Known / Unknown trước khi đặt bất kỳ câu hỏi nào
 4. **Đặt câu hỏi chiến lược** — tối đa 3-5 câu mỗi lượt, luôn theo ngữ cảnh, không bao giờ chung chung
 5. **Trích xuất insight** — diễn giải lại, phân loại (triệu chứng vs nguyên nhân gốc rễ vs ràng buộc), cập nhật phát hiện
@@ -227,13 +224,13 @@ Copy thư mục vào /mnt/skills/user/ba-zone-ask-why/.
 
 ---
 
-### Quy kết tác giả
+### Bản quyền
 
-Phát triển bởi **Phúc NT** · Founder, [BA Zone](https://bazone.org) · Digital School
+Phát triển bởi **Phúc NT** · Founder, [BA Zone](https://bazone.org) ·
 
-Đây là tài sản trí tuệ của **BA Zone**. Tự do sử dụng và fork theo giấy phép MIT, với điều kiện bạn **giữ nguyên thông tin tác giả** trong tất cả bản phân phối.
-
-> Lưu ý: Phương pháp luận xếp chuỗi câu hỏi đầy đủ, logic follow-up nâng cao, và luyện tập elicitation trực tiếp được dạy trong chương trình **Digital School BA Advanced** tại [bazone.org](https://bazone.org).
+Đây là tài sản trí tuệ của **BA Zone**. Tự do sử dụng và fork theo giấy phép MIT, với điều kiện bạn **giữ nguyên thông tin tác giả** trong tất cả bản phân phối. 
+Cần hỗ trợ các bạn hãy nhắn tin vào fanpage BA Zone để được tư vấn.
+> Lưu ý: Skill này nếu được phối lại không đúng tiêu chuẩn sẽ có chất lượng đầu ra kém. Phương pháp luận xếp chuỗi câu hỏi đầy đủ, logic follow-up nâng cao, và luyện tập elicitation trực tiếp được dạy trong chương trình **AI for BA** tại [bazone.org](https://digitalschool.vn/courses/ai-cho-businss-analyst-va-product-owner/).
 
 ---
 
@@ -242,5 +239,5 @@ Phát triển bởi **Phúc NT** · Founder, [BA Zone](https://bazone.org) · Di
 MIT — xem [LICENSE](LICENSE). Yêu cầu ghi rõ tác giả khi phân phối lại.
 
 ---
-*BA Zone · Digital School — Cộng đồng BA/PO Việt Nam và Đông Nam Á*
+*BA Zone — Cộng đồng BA/PO Việt Nam từ 2017*
 *by Phúc NT · bazone.org*
