@@ -223,11 +223,19 @@ Copy thư mục vào /mnt/skills/user/ba-zone-ask-why/.
 | Tích hợp | Real-time vs batch, fallback, xác thực |
 
 ---
+### Hướng dẫn Prompt
+Bạn hãy prompt đơn giản theo cấu trúc:
+[Bối cảnh] Hệ thống/sản phẩm: ___ | Lĩnh vực: ___
+[Người phát biểu] Vai trò: ___
+[Yêu cầu gốc - nguyên văn] "___"
+[Hiện trạng as-is] ___
+[Họ nghĩ vấn đề là] ___        ← đây là giả định để challenge
+[Ràng buộc đã biết] Pháp lý/deadline/hệ thống: ___
+Sau đó kích hoạt skill Product discovery. Không viết mô tả yêu cầu ngay. Bắt đầu bằng việc xác định intent, layer còn thiếu, và hỏi tối đa 3 câu why ưu tiên cao nhất để phát triển sản phẩm.
+Đừng nên quá chi tiết vì sẽ giới hạn sự sáng tạo nếu có.
 
 ### Bản quyền
-
 Phát triển bởi **Phúc NT** · Founder, [BA Zone](https://bazone.org) ·
-
 Đây là tài sản trí tuệ của **BA Zone**. Tự do sử dụng và fork theo giấy phép MIT, với điều kiện bạn **giữ nguyên thông tin tác giả** trong tất cả bản phân phối. 
 Cần hỗ trợ các bạn hãy nhắn tin vào fanpage BA Zone để được tư vấn.
 > Lưu ý: Skill này nếu được phối lại không đúng tiêu chuẩn sẽ có chất lượng đầu ra kém. Phương pháp luận xếp chuỗi câu hỏi đầy đủ, logic follow-up nâng cao, và luyện tập elicitation trực tiếp được dạy trong chương trình **AI for BA** tại [bazone.org](https://digitalschool.vn/courses/ai-cho-businss-analyst-va-product-owner/).
