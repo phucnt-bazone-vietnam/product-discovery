@@ -241,7 +241,7 @@ Cần hỗ trợ các bạn hãy nhắn tin vào fanpage BA Zone để được 
 > Lưu ý: Skill này nếu được phối lại không đúng tiêu chuẩn sẽ có chất lượng đầu ra kém. Phương pháp luận xếp chuỗi câu hỏi đầy đủ, logic follow-up nâng cao, và luyện tập elicitation trực tiếp được dạy trong chương trình **AI for BA** tại [bazone.org](https://digitalschool.vn/courses/ai-cho-businss-analyst-va-product-owner/).
 
 ---
-
+Nếu thấy repo này hữu ích, nhờ anh em đăng nhập và tặng mình 1 ngôi sao và forks về trang github của các bạn nhé.
 ### Giấy phép
 
 MIT — xem [LICENSE](LICENSE). Yêu cầu ghi rõ tác giả khi phân phối lại.
